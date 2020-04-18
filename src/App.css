@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(Images/rose.jpg);
+  background-size: 400px;
+}
+
+.navbar, .contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.contact button {
+  margin-top: 200px;
+  font-size: 200px;
+  padding: 20px 40px;
+  color: #011638;
+  border: 2px solid #773344;
+}
+
+.navbar button {
+  font-size: 24px;
+  color: #773344;
+  border: solid 2px #773344;
+}
+
+.navbar button:hover, .contact button:hover {
+  background:linear-gradient(to bottom, #D499B9, #E8C1C5, #D499B9 );
+}
+
+button {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 15px;
+}
+
+.projectButts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+}
+
+p {
+  margin-top: 40px;
+}
+
+p, li {
+  font-size: 24px;
+}
+
+img {
+  width: 900px;
+  margin-top: 50px;
+}
+
+.home {
+  width: 1000px;
+  margin: 50px auto;
+  padding: 20px 60px;
+  padding-bottom: 50px;
+  background-color:#E8C1C5;
+  border: 2px solid #773344;
+}
+
+.name {
+  color: #011638;
+}
+
+.quarantrail, .weebify, .bobapedia, .quizapp {
+  width: 1000px;
+  margin: 50px auto;
+  padding: 50px;
+  border: solid black 2px;
+}
+
+.quarantrail {
+  background-color: rgb(224, 163, 163);
+}
+
+.quarantrail h2 {
+  background-color: rgb(206, 210, 255);
+  width: 350px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quarantrail button {
+  background-color: rgb(236, 228, 160);
+}
+
+.quarantrail button:hover {
+  background-color: rgb(209, 192, 41);
+  color: rgb(255, 255, 255);
+}
+
+.weebify {
+  background-color: gray;
+}
+
+.weebify h2 {
+  background-image: url(Images/flower2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 350px;
+  padding: 20px;
+}
+
+.weebify button {
+  box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius: 1em;
+  border:1px solid #942911;
+  text-shadow:0px 1px 0px #854629;
+  color:#ffffff;
+}
+
+.weebify button:hover {
+  background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+
+.bobapedia {
+  color: #E6F9AF;
+  background-color:#18314F;
+}
+
+.bobapedia h2 {
+  background-image: url(Images/bubbles-circles-background.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 350px;
+  padding: 20px;
+  color: #0D0630;
+}
+
+.bobapedia button {
+  background-color: #8BBEB2;
+  color: #0D0630;
+}
+
+.bobapedia button:hover {
+  background-color: #384E77;
+}
+
+.quizapp {
+  background-color:lightgray;
+  border: 5px solid deeppink;
+  border-radius: 5%; 
+}
+
+.quizapp h2 {
+  color: deeppink;
+  background-color: #FFEBCD; 
+  width: 350px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quizapp button {
+  background-color: pink;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.quizapp button:hover {
+  background-color: deeppink;
+}
+
+.quizapp button:active {
+  background-color: pink;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+  h1 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  p, li {
+    font-size: 18px;
+  }
+
+  .navbar button {
+    font-size: 18px;
+    width: 80px;
+    padding: 5px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .home {
+    width: 300px;
+    padding: 20px;
+  }
+
+  .contact {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .contact button {
+    font-size: 75px;
+    margin: 20px;
+  }
+
+  img {
+    width: 255px;
+    margin-top: 20px;
+  }
+
+  .quarantrail, .weebify, .bobapedia, .quizapp {
+    width: 300px;
+    padding: 20px;
+  }
+
+  .quarantrail h2, .quizapp h2 {
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:1023px){
+  .home, .quarantrail, .weebify, .bobapedia, .quizapp {
+    width: 700px;
+  }
+
+  img {
+    width: 600px;
+  }
+
+  .contact button {
+    font-size: 150px;
+  }
+}
+
+.savingTheseColors {
+  color: #011638;
+  color: #2E294E;
+  color: #773344;
+  color: #D499B9;
+  color: #E8C1C5;
+}
