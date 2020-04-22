@@ -53,11 +53,13 @@ h2 {
   text-align: center;
 }
 
-p {
-  margin-top: 40px;
+h3 {
+  font-size: 28px;
+  margin: 5px 0px;
 }
 
-p, li {
+p {
+  margin-top: 40px;
   font-size: 24px;
 }
 
@@ -77,6 +79,10 @@ img {
 
 .name {
   color: #011638;
+}
+
+.projects p {
+  margin-top: 0px;
 }
 
 .quarantrail, .weebify, .bobapedia, .quizapp {
@@ -196,6 +202,10 @@ img {
   
   h2 {
     font-size: 24px;
+  }
+
+  h3 {
+    font-size: 21px;
   }
   
   p, li {
