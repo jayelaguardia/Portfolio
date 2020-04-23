@@ -47,7 +47,7 @@ export default class Projects extends Component {
             <p>This is a game where the user practices social distancing and self quarantine practices. It is geared towards teens and older. We built this game for the user to have fun and alleviate boredom</p>
             <p>In this playful and lighthearted game, the world was struck with an awful pandemic and the player has to stay indoors. The goal is to practice social distancing and self quarantine while keeping one's boredom level bar low for as many days as possible. As such, the two guages to keep an eye on are the chance of infection and boredom. Every choice and action can increase or decrease these guages so tread carefully. The player must also need to keep track of, and maintain, their supply of food and toilet paper, but you may not want to get too much...</p>
             <h3>Tech Stack</h3>
-            <p>React, Javascript, HTML5, CSS3, React-Game-Engine, Zeit, Express, Node.js, PostgreSQL, Heroku</p>
+            <p>React, JavaScript, HTML5, CSS3, React-Game-Engine, Zeit, Express, Node.js, PostgreSQL, Heroku</p>
             <div className='projectButts'>
               <button onClick={() => this.toggleBool('Screen', 'Quaran')}>Screenshots</button>
               <a href="https://github.com/thinkful-ei-jaguar/Quarantrail-client" target="_blank"><button>GitHub Repo</button></a>
@@ -68,7 +68,7 @@ export default class Projects extends Component {
             <p>This is a flashcard memory type of app. We built this app to help beginners learn japanese and it is geared towards anyone who wishes to learn a new language</p>
             <p>The user can learn Japanese vocabulary using spaced repetition learning technique. A user is presented with a vocabulary "card" and is allowed to enter a guess. If the guess is correct, the user will be quizzed on that word later. If the guess is incorrect, they will be quizzed sooner.</p>
             <h3>Tech Stack</h3>
-            <p>React, Javascript, HTML5, CSS3, Zeit, Express, Node.js, PostgreSQL, Heroku</p>
+            <p>React, JavaScript, HTML5, CSS3, Zeit, Express, Node.js, PostgreSQL, Heroku</p>
             <div className='projectButts'>
               <button onClick={() => this.toggleBool('Screen', 'Weeb')}>Screenshots</button>
               <a href="https://github.com/thinkful-ei-jaguar/Cap-2-Client-Jaye-Blade" target="_blank"><button>GitHub Repo</button></a>
@@ -89,7 +89,7 @@ export default class Projects extends Component {
             <p>This app is a hub to create and view boba recipes. I built this app for boba lovers to save their favorite boba tea recipes as well as look at other recipes to try on their next boba adventure</p>
             <p>Bobapedia is a collection of bubble (or boba) tea recipes. The Classic page is where you'll find the "top" 15 bubble teas. Clicking on one will direct you to the recipe to make that tea. The Creation page is where you can make your own tea recipe as well as view other teas made by other users. You can also update or delete the teas you have made. However, you must have an account to view or use this page. Please use the register tab to make an account or login if you've already made one.</p>
             <h3>Tech Stack</h3>
-            <p>React, Javascript, HTML5, CSS3, Zeit, Express, Node.js, PostgreSQL, Heroku</p>
+            <p>React, JavaScript, HTML5, CSS3, Zeit, Express, Node.js, PostgreSQL, Heroku</p>
             <div className='projectButts'>
               <button onClick={() => this.toggleBool('Screen', 'Boba')}>Screenshots</button>
               <a href="https://github.com/jayelaguardia/bobapedia-client" target="_blank"><button>GitHub Repo</button></a>
@@ -107,10 +107,10 @@ export default class Projects extends Component {
             <h2>Quiz App</h2>
             <img className='previewIMG' src={QuizApp1} alt='a screenshot from the Quiz App' />
             <h3>Description</h3>
-            <p>Much like the name, this is a quiz app. This app was built for those who would like to test their knowledge on the Kardashian celebrities. This app was built as a way to learn and become proficient at Javascript, HTML5, CSS3</p>
+            <p>Much like the name, this is a quiz app. This app was built for those who would like to test their knowledge on the Kardashian celebrities. This app was built as a way to learn and become proficient at JavaScript, HTML5, CSS3</p>
             <p>A user is able to take a short quiz about the Kardashian celebrities. The user receives feedback immediately after each question. The user is then presented with a final score and how well they did at the end of the quiz</p>
             <h3>Tech Stack</h3>
-            <p>Javascript, HTML5, CSS3</p>
+            <p>JavaScript, HTML5, CSS3</p>
             <div className='projectButts'>
               <button onClick={() => this.toggleBool('Screen', 'Quiz')}>Screenshots</button>
               <a href="https://github.com/thinkful-ei-jaguar/quizAppJayeBrittany" target="_blank"><button>GitHub Repo</button></a>
