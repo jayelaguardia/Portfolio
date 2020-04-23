@@ -8,7 +8,7 @@ export default class Resume extends Component {
       <>
         <Navbar />
         <section className="resume">
-          
+          <h1>COMING SOON!</h1>
         </section>
       </>
     );

@@ -41,6 +41,8 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 h1 {
@@ -65,16 +67,20 @@ p {
 
 img {
   width: 900px;
-  margin-top: 50px;
+  margin: 0px auto 25px;
 }
 
-.home {
+.home, .resume {
   width: 1000px;
   margin: 50px auto;
   padding: 20px 60px;
   padding-bottom: 50px;
   background-color:#E8C1C5;
   border: 2px solid #773344;
+}
+
+.resume {
+  padding: 0px;
 }
 
 .name {
@@ -88,7 +94,7 @@ img {
 .quarantrail, .weebify, .bobapedia, .quizapp {
   width: 1000px;
   margin: 50px auto;
-  padding: 50px;
+  padding: 25px 50px;
   border: solid black 2px;
 }
 
@@ -100,8 +106,7 @@ img {
   background-color: rgb(206, 210, 255);
   width: 350px;
   padding: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 25px auto;
 }
 
 .quarantrail button {
@@ -197,7 +202,7 @@ img {
 @media only screen and (min-width:320px) and (max-width:767px) {
   h1 {
     font-size: 30px;
-    margin-top: 10px;
+    margin: 20px auto;
   }
   
   h2 {
@@ -208,8 +213,9 @@ img {
     font-size: 21px;
   }
   
-  p, li {
+  p {
     font-size: 18px;
+    margin-top: 20px;
   }
 
   .navbar button {
@@ -223,9 +229,13 @@ img {
     padding: 5px;
   }
 
-  .home {
+  .home h2{
+    margin: 0px auto;
+  }
+
+  .home, .resume {
     width: 300px;
-    padding: 20px;
+    padding: 0px 20px;
   }
 
   .contact {
@@ -241,12 +251,15 @@ img {
 
   img {
     width: 255px;
-    margin-top: 20px;
+  }
+
+  .previewIMG {
+    margin-bottom: 10px;
   }
 
   .quarantrail, .weebify, .bobapedia, .quizapp {
     width: 300px;
-    padding: 20px;
+    padding: 0px 20px;
   }
 
   .quarantrail h2, .quizapp h2 {
@@ -255,7 +268,7 @@ img {
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px){
-  .home, .quarantrail, .weebify, .bobapedia, .quizapp {
+  .home, .resume, .quarantrail, .weebify, .bobapedia, .quizapp {
     width: 700px;
   }
 
