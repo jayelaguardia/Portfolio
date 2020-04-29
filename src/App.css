@@ -13,7 +13,7 @@ body {
   justify-content: space-evenly;
 }
 
-.contact button {
+.contact button, .resume button {
   margin-top: 200px;
   font-size: 200px;
   padding: 20px 40px;
@@ -27,7 +27,7 @@ body {
   border: solid 2px #773344;
 }
 
-.navbar button:hover, .contact button:hover {
+.navbar button:hover, .contact button:hover, .resume button:hover  {
   background:linear-gradient(to bottom, #D499B9, #E8C1C5, #D499B9 );
 }
 
@@ -70,7 +70,7 @@ img {
   margin: 0px auto 25px;
 }
 
-.home, .resume {
+.home {
   width: 1000px;
   margin: 50px auto;
   padding: 20px 60px;
@@ -80,7 +80,9 @@ img {
 }
 
 .resume {
-  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 .name {
@@ -233,9 +235,13 @@ img {
     margin: 0px auto;
   }
 
-  .home, .resume {
+  .home {
     width: 300px;
     padding: 0px 20px;
+  }
+
+  .resume {
+    margin-top: 30px;
   }
 
   .contact {
@@ -244,7 +250,7 @@ img {
     margin-top: 30px;
   }
 
-  .contact button {
+  .contact button, .resume button {
     font-size: 75px;
     margin: 20px;
   }
@@ -268,7 +274,7 @@ img {
 }
 
 @media only screen and (min-width:768px) and (max-width:1023px){
-  .home, .resume, .quarantrail, .weebify, .bobapedia, .quizapp {
+  .home, .quarantrail, .weebify, .bobapedia, .quizapp {
     width: 700px;
   }
 
@@ -276,8 +282,21 @@ img {
     width: 600px;
   }
 
-  .contact button {
+  .contact button, .resume button {
     font-size: 150px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .resume {
+    width: 1000px;
+    margin: 50px auto;
+    padding: 20px 60px;
+    padding-bottom: 50px;
+    background-color:#E8C1C5;
+    border: 2px solid #773344;
+    padding: 0px;
+    height: 1200px;
   }
 }
 

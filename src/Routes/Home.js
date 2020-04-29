@@ -9,7 +9,7 @@ export default class Home extends Component {
         <Navbar />
         <section className="home">
           <h1>Hi! My name is <span className='name'> Jaye Anne Laguardia </span></h1>
-          <h2>I am a Junior Full Stack Developer with a passion for video games, music, and yarn.</h2>
+          <h2>I am a Full Stack Developer with a passion for video games, music, and yarn.</h2>
 
           <p> I am a graduate from Thinkful's Full Engineering Immersion Program and a graduate from Cal Poly Pomona with a B.S. in Computer Science. I would love a career as a full stack developer working with video games or music. I love the mental stimulation and learning that comes with coding, especially the feeling of joy each time I overcome an obstacle. I also really enjoy being a part of the creation process of a project from start to finish. It's like, "I made that! With my own hands!" and I fill up with pride and confidence in my work. </p>
 
