@@ -15,10 +15,11 @@ body {
 
 .contact button, .resume button {
   margin-top: 200px;
-  font-size: 200px;
+  font-size: 150px;
   padding: 20px 40px;
   color: #011638;
   border: 2px solid #773344;
+  background-color: rgb(250,250,250, .6);
 }
 
 .navbar button {
@@ -70,12 +71,21 @@ img {
   margin: 0px auto 25px;
 }
 
+.selfie {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  display: flex;
+  align-self: center;
+}
+
 .home {
   width: 1000px;
   margin: 50px auto;
   padding: 20px 60px;
   padding-bottom: 50px;
-  background-color:#E8C1C5;
+  background-color:rgb(232, 193, 197, .6);
   border: 2px solid #773344;
 }
 
@@ -101,7 +111,7 @@ img {
 }
 
 .quarantrail {
-  background-color: rgb(224, 163, 163);
+  background-color: rgb(224, 163, 163, .6);
 }
 
 .quarantrail h2 {
@@ -121,7 +131,7 @@ img {
 }
 
 .weebify {
-  background-color: gray;
+  background-color: rgb(128,128,128, .6);
 }
 
 .weebify h2 {
@@ -149,7 +159,7 @@ img {
 
 .bobapedia {
   color: #E6F9AF;
-  background-color:#18314F;
+  background-color: rgb(24, 49, 79, .6);
 }
 
 .bobapedia h2 {
@@ -171,7 +181,7 @@ img {
 }
 
 .quizapp {
-  background-color:lightgray;
+  background-color:rgb(211,211,211, .6);
   border: 5px solid deeppink;
   border-radius: 5%; 
 }
@@ -263,6 +273,10 @@ img {
     margin-bottom: 10px;
   }
 
+  .selfie {
+    width: 125px;
+  }
+
   .quarantrail, .weebify, .bobapedia, .quizapp {
     width: 300px;
     padding: 0px 20px;
@@ -283,7 +297,7 @@ img {
   }
 
   .contact button, .resume button {
-    font-size: 150px;
+    font-size: 100px;
   }
 }
 

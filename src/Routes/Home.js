@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from '../Components/Navbar'
+import JLphoto from '../Images/JLphoto.jpg'
 
 export default class Home extends Component {
 
@@ -8,6 +9,7 @@ export default class Home extends Component {
       <>
         <Navbar />
         <section className="home">
+          <img className='selfie' src={JLphoto} alt='a photo of Jaye Anne Laguardia' /> 
           <h1>Hi! My name is <span className='name'> Jaye Anne Laguardia </span></h1>
           <h2>I am a Full Stack Developer with a passion for video games, music, and yarn.</h2>
 
