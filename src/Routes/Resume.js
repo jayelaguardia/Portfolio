@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Navbar from '../Components/Navbar'
-import resume from '../Components/JLaguardiaResume.pdf'
+import resume from '../Components/JLaguardiaResume.PDF'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from '@fortawesome/free-regular-svg-icons'
 
